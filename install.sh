@@ -7,3 +7,4 @@
 curl -o latest.tar.gz https://github.com/matheusxaviersi/InputMask-js/archive/installer.tar.gz;
 tar -xfz latest.tar.gz;
 npm install traceur -g;
+traceur --script src compiled.js;
